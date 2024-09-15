@@ -15,7 +15,8 @@ class _SplashScreen1State extends State<SplashScreen1> {
   changeScreen(){
     Future.delayed(Duration(seconds: 3),(){
       Get.to(()=>LoginScreen());
-    });
+    },
+    );
   }
 @override
   void initState() {
